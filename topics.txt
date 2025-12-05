@@ -1,0 +1,13 @@
+<script>
+class programs{
+  constructor(x){
+     this.full_name=x;
+  }
+hello(){
+    document.write("Hello dear "+this.full_name);
+}
+}
+let y=prompt("Enter a name:");
+let hello_obj=new programs(y);
+hello_obj.hello();
+</script>
